@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<title>AboutUS</title>
+<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <nav> 
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="#" class="logo">Zaytona Library</a></label>
+    <ul>
+        <li><a href="Home.html" class="active">Home</a></li>
+        <li><a href="AboutUS.html"  id="about us">AboutUs</a></li>
+        <li><a href="Books.html"  id="Properties">Library</a></li>
+    </ul>
+</nav> 
+
+<section>
+
+<h1 class="title">من نحن؟</h1><br>
+<p class="inAbout">
+    نحن مكتبة معاصرة للوقت الحاضر<br /><br /> لدينا أكثر من 3000 كتاب حول العالم لأشهر المؤلفين العرب والأجانب<br /> 
+    <br /> ولأن راحة الزبون غايتنا نأمن توصيل مجاني إلى كافة أنحاء الوطن العربي<br /> 
+    <br />إضافة لتقديم هدايا مع كل طلب من مكتبتنا كـ شكر لثقة عملائنا  
+</p>
+<br>
+<h1 class="title">تواصل معنا </h1>
+<p class="inAbout">
+    Facebook:https://www.facebook.com/Zaytona <br /><br /> Telegram:https://t.me/Zaytona.Library <br /> 
+    <br /> Whatsapp Chat: +963 985 330 273 <br />
+</p>
+<section>
+<script>
+
+document.addEventsListener('DOMContentLoaded',function(){
+const links=document.querySelectorAll('nav ul li a');
+links.forEach(link=>{
+link.addEventListener('click',function(){
+links.forEach(link=>{
+link.classList.remove('active');
+this.classList.add('active');
+});
+});
+});
+});
+</script>
+
+</body>
+</html>

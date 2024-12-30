@@ -1,0 +1,300 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<title>Library Books</title>
+<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <nav>  
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="#" class="logo">Zaytona Library</a></label>
+        <ul>
+            <li><a href="Home.html" class="active">Home</a></li>
+            <li><a href="AboutUS.html"  id="about us">AboutUs</a></li>
+            <li><a href="Books.html"  id="Properties">Library</a></li>
+        </ul>
+</nav> 
+<h1 class="title10">إليك قائمة بالكتب الأكثر مبيعاً</h1><br>
+<section>
+   <table id="myTable" border="1">
+    <tr>
+        <th class="button1"> اختيار </th>
+        <th class="button1">اظهار التفاصيل</th>
+        <th class="button1"> السعر</th>
+        <th class="button1"> العنوان</th>
+        <th class="button1"> رمز الكتاب ISBN </th>
+    </tr>
+    <tr class="button1">
+        <th><input type="radio" name="chose1" value="5000 كتاب فاتتني صلاة" /></th>
+        <td>
+            <label>
+                <input type="checkbox" id="details" class="details-button">
+            </label>
+        </td>
+
+        <th>5000</th>
+        <th>فاتتني صلاة </th>
+        <th>978-9770916450</th>
+    </tr>
+    <tr class="details-row">
+        <td colspan="5">
+            <div class="container">
+                <div class="text">الكاتب: اسلام جمال</div>
+                <div class="text">الطبعة: الثالثة</div>
+                <div class="text">الناشر: زحمة كتاب </div>
+            </div>
+            <div class="container">
+                <div class="text">الدفع: إلكتروني فقط</div>
+                <div class="text">الأحداث: تدور أحداث هذا الكتاب حول الصلاة وفوائدها على الجسم والصحة النفسية </div>
+                <div class="text">تصنيف الكتاب: كتب دينية</div>
+            </div>
+            <div class="container">
+                <div class="text">  <img src= IMAGES\كتاب_بالنيابة_عنهم.PNG alt="Image 1"></div>
+                <div class="text"> <img src="IMAGES\كتاب_فن _للامبالاة.PNG" alt="Image 2"></div>
+                <div class="text"><img src="IMAGES\كتاب_شمس_المعارف.PNG" alt="Image 3"></div>
+            </div>
+        </td>
+    </tr>
+    <tr class="button1">
+        <th><input type="radio" name="chose2" value="8000 كتاب رسائل من القرءان" /></th>
+        <td>
+            <label>
+                <input type="checkbox" id="details" class="details-button">
+            </label>
+        </td>
+
+        <th>8000</th>
+        <th>رسائل من القرءان</th>
+        <th>978-9770916159</th>
+    </tr>
+    <tr class="details-row">
+        <td colspan="5">
+            <div class="container">
+                <div class="text">الكاتب: أدهم الشرقاوي </div>
+                <div class="text">الطبعة: السابعة </div>
+                <div class="text">الناشر: كلمات الكويت</div>
+            </div>
+            <div class="container">
+                <div class="text">الدفع: إلكتروني فقط</div>
+                <div class="text">الأحداث: تدور حول رسائل قرأنية ترشد الإنسان الظلام الى النور </div>
+                <div class="text">تصنيف الكتاب: كتب دينية</div>
+            </div>
+            <div class="container">
+                <div class="text">  <img src="IMAGES\كتاب_شمس_المعارف.PNG" alt="Image 1"></div>
+                <div class="text"> <img src="IMAGES\كتاب_فاتتني_صلاة.PNG" alt="Image 2"></div>
+                <div class="text"><img src="IMAGES\كتاب_بالنيابة_عنهم.PNG" alt="Image 3"></div>
+            </div>
+        </td>
+    </tr>
+    <tr class="button1">
+        <th><input type="radio" name="chose3" value="6000 شمس المعارف" /></th>
+        <td>
+            <label>
+                <input type="checkbox" id="details" class="details-button">
+            </label>
+        </td>
+
+        <th>6000</th>
+        <th>شمس المعارف</th>
+        <th>978-9770916642</th>
+    </tr>
+    <tr class="details-row">
+        <td colspan="5">
+            <div class="container">
+                <div class="text">الكاتب: أحمد بن علي البوني </div>
+                <div class="text">الطبعة: الأولى</div>
+                <div class="text">الناشر: دار الماجد</div>
+            </div>
+            <div class="container">
+                <div class="text">الدفع: إلكتروني فقط</div>
+                <div class="text">الأحداث: كتاب شمس المعارف هو كتاب مخطوط لأعمال السحر والشعوذة المتعلقة بالجن</div>
+                <div class="text">تصنيف الكتاب: الفكر والثقافة العامة</div>
+            </div>
+            <div class="container">
+                <div class="text">  <img src="IMAGES\كتاب_رسائل_من_القرءان.PNG" alt="Image 1"></div>
+                <div class="text"> <img src="IMAGES\كتاب_فن _للامبالاة.PNG" alt="Image 2"></div>
+                <div class="text"><img src="IMAGES\كتاب_بالنيابة_عنهم.PNG" alt="Image 3"></div>
+            </div>
+        </td>
+    </tr>
+    <tr class="button1">
+        <th><input type="radio" name="chose4" value="9000 فن اللامبالاة" /></th>
+        <td>
+            <label>
+                <input type="checkbox" id="details" class="details-button">
+            </label>
+        </td>
+
+        <th>9000</th>
+        <th>فن اللامبالاة</th>
+        <th>978-9770916456</th>
+    </tr>
+    <tr class="details-row">
+        <td colspan="5">
+            <div class="container">
+                <div class="text">الكاتب: مارك مانسون</div>
+                <div class="text">الطبعة: الثانية</div>
+                <div class="text">الناشر: دار التنوير</div>
+            </div>
+            <div class="container">
+                <div class="text">الدفع: إلكتروني فقط</div>
+                <div class="text">الأحداث: تنقل فن اللامبالاة وعدم التركيز على الأشياء الميؤوسة التي قد تصيب الانسان وتحبطه</div>
+                <div class="text">تصنيف الكتاب: علم النفس</div><br>
+                <div class="text"><h1>:خيارات أخرى</h1></div>
+            </div>
+            <div class="container">
+                <div class="text">  <img src="IMAGES\كتاب_فاتتني_صلاة.PNG" alt="Image 1"></div>
+                <div class="text"> <img src= "IMAGES\كتاب_شمس_المعارف.PNG" alt="Image 2"></div>
+                <div class="text"><img src="IMAGES\كتاب_رسائل_من_القرءان.PNG" alt="Image 3"></div>
+            </div>
+        </td>
+    </tr>
+    <tr class="button1">
+        <th><input type="radio" name="chose5" value="15000 بالنيابة عنهم " /></th>
+        <td>
+            <label>
+                <input type="checkbox" id="details" class="details-button">
+            </label>
+        </td>
+
+        <th>15000</th>
+        <th>بالنيابة عنهم </th>
+        <th>978-9770916489</th>
+    </tr>
+    <tr class="details-row">
+        <td colspan="5">
+            <div class="container">
+                <div class="text">الكاتب: علي نجم</div>
+                <div class="text">الطبعة: الثانية</div>
+                <div class="text">الناشر: دار المعرفة </div>
+            </div>
+            <div class="container">
+                <div class="text">الدفع: إلكتروني فقط</div>
+                <div class="text">الأحداث: يطرح تساؤولات مقلقة حول كيف للفرد أن يتخذ أدواراً مختلفة في حياته اليومية </div>
+                <div class="text">تصنيف الكتاب: تنمية بشرية </div>
+            </div>
+            <div class="container">
+                <div class="text">  <img src="IMAGES\كتاب_رسائل_من_القرءان.PNG" alt="Image 1"></div>
+                <div class="text"> <img src="IMAGES\كتاب_فن _للامبالاة.PNG" alt="Image 2"></div>
+                <div class="text"><img src="IMAGES\كتاب_شمس_المعارف.PNG" alt="Image 3"></div>
+            </div>
+        </td>
+    </tr>    
+</table>
+<br>
+
+<div id="sidePanels">
+    <div id="display"><br />
+        <div id="selectedValues"></div><br />
+        <div id="totalValue"></div><br />
+        <button id="myBtn">اضغط للمتابعة</button>
+    </div>
+
+    <div id="myForm">
+        <form id="form">
+
+            Full Name IN Arabic <br /><input type="text" id="fullName" name="fullName" pattern="[\u0600-\u06FF\s]+" /><br />
+            National.Num<br /><input type="text" id="nationalNumber" name="nationalNumber" required="required" maxlength="11" pattern="^(0[1-9]|1[0-5])[0-9]{9}$" /><br />
+            Date of Birth<br /><input type="date" id="birthDate" name="birthDate" /><br />
+            MobilePhone<input type="text" id="mobile" name="mobilePhone" placeholder="09" maxlength="10"  pattern="((0)(93|94|95|96|98|99)([0-9]{7}))|((0)(92|95|96|97)([0-9]{7}))" /><br />
+            Email<input type="email" id="email" name="email" /><br />
+            <label for="captcha">Please Enter the captcha verification code:</label><br />
+            <input type="text" id="captcha" readonly /><br />
+            <input type="text" id="userInput" placeholder="insert here" required="required" /><br />
+            <input type="submit" class="button" value="إرسال" />
+        </form>
+    </div>
+</div>
+
+<script>
+    function toggleRow(checkbox) {
+        var row = checkbox.parentNode.parentNode.nextElementSibling;
+        if (checkbox.checked) {
+            row.style.display = 'table-row';
+        } else {
+            row.style.display = 'none';
+        }
+    }
+
+    // Function to display selected options
+    function displaySelection() {
+        var radios = document.querySelectorAll('#myTable input[type="radio"]');
+        var total = 0;
+        var selectedValues = [];
+
+        radios.forEach(function (radio) {
+            if (radio.checked) {
+                selectedValues.push(radio.value);
+                total += parseInt(radio.value.split(' ')[0]);
+            }
+        });
+        var displayDiv = document.getElementById('display');
+        displayDiv.style.display = "block";
+
+        var selectedValuesDiv = document.getElementById('selectedValues');
+        selectedValuesDiv.innerHTML = "Details Informations: " + selectedValues.join(',');
+
+        var totalValueDiv = document.getElementById('totalValue');
+        totalValueDiv.innerHTML = "Total: " + total;
+
+        document.getElementById('myBtn').addEventListener("click", function () {
+            document.getElementById("myForm").style.display = "block";
+        });
+    }
+
+    // Add event listener to radio buttons
+    document.querySelectorAll('#myTable input[type="radio"]').forEach(function (radio) {
+        radio.addEventListener('change', displaySelection);
+    });
+
+    // CAPTCHA setup
+    window.onload = function () {
+        var captchaArray = ["Mas$A73B", "iLss55&m", "ssso0!lm"];
+        var captchaInput = document.getElementById("captcha");
+        var randomValue = captchaArray[Math.floor(Math.random() * captchaArray.length)];
+        captchaInput.value = randomValue;
+
+        document.getElementById('form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var userInput = document.getElementById('userInput').value;
+            if (userInput === captchaInput.value) {
+                alert(document.getElementById('selectedValues').innerHTML);
+            } else {
+                alert('wrong data');
+            }
+        });
+    }
+</script>
+
+</section>      
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+<script>
+  $(document).ready(function() {
+    $(".details-button").click(function() {
+        var detailsRow = $(this).closest('tr').next('.details-row');
+        if (detailsRow.css('display') === 'none' || detailsRow.css('display') === '') {
+            detailsRow.css('display', 'table-row');
+        } else {
+            detailsRow.css('display', 'none');
+        }
+    });
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('nav ul li a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    links.forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+        });
+    });
+</script>
+</body>
+</html>

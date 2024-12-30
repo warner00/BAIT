@@ -1,0 +1,83 @@
+<!DOCTYPE html> 
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<title>Home Library</title>
+<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <nav>  
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="#" class="logo">Zaytona Library</a></label>
+    <ul>
+        <li><a href="Home.html" class="active">Home</a></li>
+        <li><a href="AboutUS.html"  id="Properties">AboutUs</a></li>
+        <li><a href="Books.html"  id="about us">Library</a></li>
+    </ul>
+</nav>
+<br><br>
+<p style="color: black; font-size: 20px;">Website Link</p>
+<br>
+<input type="text" id="myInput" value="#" readonly >
+<br>
+<section class="names" id="pot">
+    <h2 class="title">OUR NAMES</h2>
+    <div class="sa">
+        <div class="hu">
+            غنى أحمد زيتون <br>
+            Ghina Ahmad Zaytoun<br>
+            ghina_258968 | C4
+        </div>
+
+        <div class="hu">
+            أحمد محمد الحلبوني<br>
+            Ahmad Mohamad Alhalboni <br>
+            Ahmad_336022 | C5
+        </div>
+
+        <div class="hu">
+            آية محمد يوسف بحري<br>
+            Aya Mohamad Bahri <br>
+            aya_286550 | C5
+
+        </div>
+
+        <div class="hu">
+            محمد أحمد الحلبوني<br>
+            Muhamad Ahmad Alhalboni<br>
+            muhamad_124461 | C4
+
+        </div>
+
+        <div class="hu">
+            :وبإشراف الدكتور القدير<br>
+            Diaa Mohammad Khalouf<br>
+            ضياء محمد خلوف
+             
+        </div>
+    </div>
+
+</section>
+   <script>
+ function sayHello(){
+    alert("hello world");
+   }
+    document.addEventListener('DOMContentLoaded',function(){
+  const links=document.querySelectorAll('nav ul li a');
+  links.forEach(link=>{
+  link.addEventListener('click',function(){
+  links.forEach(link=>{
+  link.classList.remove('active');
+  this.classList.add('active');
+  });
+  });
+  });
+    });
+   </script>
+
+</body>
+</html>
